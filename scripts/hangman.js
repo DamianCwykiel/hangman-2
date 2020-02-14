@@ -31,7 +31,7 @@ class Hangman {
         if (this.guessedLetters.includes(letter) || letter === ' ') {
             puzzle += letter
         } else {
-            puzzle += 'x'
+            puzzle += '*'
         }
     })
 
